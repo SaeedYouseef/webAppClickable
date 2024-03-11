@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    border: 2px solid darkred;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 50px 0 30vh;
+    color: darkred;
+    font-size: 32px;
+    border: 2px solid darkred;
+    padding: 50px 10px;
+}
+
+button {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(112, 7, 7);
+}
